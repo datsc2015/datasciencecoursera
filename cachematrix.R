@@ -39,3 +39,11 @@ cacheSolve <- function(x, ...) {
         x$seti(inver) 
         return(inver)       
 }
+
+
+
+#a <- makeCacheMatrix( matrix(c(1:4), nrow = 2, ncol = 2) )
+#summary(a)
+#a$get()
+#cacheSolve(a)
+#cacheSolve(a) #get cached value after the 2nd time
